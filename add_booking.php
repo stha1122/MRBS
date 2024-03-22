@@ -50,7 +50,7 @@
                     echo "<tr>";
                     echo "<td>" . $row["id"] . "</td>";
                     echo "<td>" . $row["room_id"] . "</td>";
-                    echo "<td>" . $row["capacity"] . "</td>";
+                    echo "<td>" . $row["capacity"] . "</td>"; // Displaying capacity
                     echo "<td><button type='submit' name='room_id' value='" . $row["room_id"] . "'>Book</button></td>";
                     echo "</tr>";
                 }
@@ -69,7 +69,7 @@
             $end_time = $_POST["end_time"];
 
             // Insert the booking into the database
-            $insert_sql = "INSERT INTO bookings (room_id, booking_date, start_time, end_time) VALUES ($room_id, '$booking_date', '$start_time', '$end_time')";
+            $insert_sql = "INSERT INTO bookings (room_id, booking_date, start_time, end_time) VALUES ('$room_id', '$booking_date', '$start_time', '$end_time')";
             if ($conn->query($insert_sql) === TRUE) {
                 echo "Booking successful.";
             } else {
