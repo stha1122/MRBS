@@ -61,10 +61,3 @@ To set up the Meeting Room Booking System on your local machine, follow these st
 - PHP
 - MySQL
 
-## Credits
-
-This project was created by Shwetha. You can find the original repository [here](https://github.com/stha1122/MRBS).
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
