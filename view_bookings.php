@@ -8,17 +8,9 @@
 </head>
 <body>
     <div class="container">
-        <!-- <h1>View Bookings</h1>
-        <table>
-            <tr>
-                <th>Room ID</th>
-                <th>Booking Date</th>
-                <th>Start Time</th>
-                <th>End Time</th>
-            </tr>
-        </table> -->
-
         
+
+
             <!-- PHP code to fetch and display bookings -->
             <?php
 include 'db_connect.php';
