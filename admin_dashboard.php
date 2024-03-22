@@ -29,7 +29,7 @@ if (isset($_GET["logout"]) && $_GET["logout"] === "true") {
         <div class="menu">
             <a href="add_room.php">Add Room</a> <!-- Link to add new room page -->
             <a href="edit_rooms.php">Edit Rooms</a> <!-- Link to edit rooms page -->
-            
+            <a href="delete_room.php">Delete Rooms</a> <!-- Link to delete rooms page -->
             <a href="?logout=true">Logout</a> <!-- Link to logout (destroy session) -->
         </div>
     </div>
